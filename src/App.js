@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
-import NewsTemplate from "./NewsTemplate";
+import WeatherTemplate from "./WeatherTemplate";
 
 class App extends Component {
   constructor(props) {
@@ -49,7 +49,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <NewsTemplate weatherData={this.state.data} />
+        <WeatherTemplate weatherData={this.state.data} />
       </div>
     );
   }
